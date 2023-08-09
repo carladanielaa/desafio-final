@@ -167,16 +167,30 @@ header{
    }
    
    footer{
-    background-color: #fdee6a;
+    background-color:#FD6A9A;
     padding-top: 20px;
     width: 100vw;
+    height: 40vh;
+   }
+   .lista{
+    display: flex;
+    justify-content: space-evenly;
+    color: #F4F2F3;
+   }
+   .lista h2{
+   
+    margin: 15px;
+    font-size: 35px;
     
    }
-   footer section{
-    border: solid red;
-  
+   .Atendimento{
+    position: relative;
+    right: 25px;
+    
    }
-   
+   /*.navegaçãodofooter, .redesdofooter{
+    display: none;
+   }*/
    
    
 
@@ -335,11 +349,13 @@ header{
 footer{
     background-color: #FD6A9A;
     padding-top: 20px;
+    display: flex;
     width: 100vw;
     height: 90vh;
 }
-.redesdofooter div{
-    display: flex;
+.redesdofooter{
+   
+   border: solid;
     justify-content: center;
     padding-top: 20px;
 }
